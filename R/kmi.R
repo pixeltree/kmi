@@ -1,3 +1,5 @@
+require(survival)
+
 kmi <- function(formula, data, id = NULL, etype, failcode = 1,
                 nimp = 10, epsilon = 1,
                 bootstrap = FALSE, nboot = 10) {
